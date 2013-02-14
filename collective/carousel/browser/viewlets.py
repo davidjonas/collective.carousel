@@ -35,7 +35,9 @@ class CarouselViewlet(ViewletBase):
             
             # It doesn't make sense to show *all* objects from a collection 
             # - some of them might return hundreeds of objects
-            return provider.queryCatalog()[:7]
+            #TODO: why 7 then?? Doesn't make much sense. And it breaks with the new Collection type. 
+            #return provider.queryCatalog()[:7]
+            return provider.queryCatalog()
         return results
 
     def canSeeEditLink(self, provider):
