@@ -74,9 +74,9 @@ $(function () {
                             .get()
                         );
                     if (newHeight >= baseHeight) {
-                        $this.add($carousel)
-                            .height(newHeight)
-                            .trigger('resized.carousel', [newHeight]);
+                        $this.add($carousel);
+                            //.height(newHeight)
+                            //.trigger('resized.carousel', [newHeight]);
                     }
                 });
             }
