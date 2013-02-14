@@ -3,6 +3,7 @@ Changelog
 
 1.5 - Unreleased
 ----------------
+- Added support to Plone's new Collection type. [davidjonas]
 
 - Don't base the carousel portlet on the collection one since it brings quite
   some unnecessary fileds that don't make sense in this context.
