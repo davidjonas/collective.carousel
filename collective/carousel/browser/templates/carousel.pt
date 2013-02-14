@@ -21,7 +21,7 @@
                i18n:attributes="title label_previous_item"><span i18n:translate="label_previous_item">Previous item</span></a>                         
 
             <!-- <div class="kiosk-wrapper"> -->
-            <div class="scrollable">
+            <div class="scrollable" data-timer="5000">
                 <div class="items">
 
                     <tal:block tal:repeat="item python:view.results(provider)">
