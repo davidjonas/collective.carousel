@@ -89,7 +89,8 @@ $(function () {
             size: 1,
             clickable: false,
             loop: true,
-            circular: true
+            circular: true,
+            touch: false
         })
         .autoscroll({
             autoplay: ap,
